@@ -1,0 +1,22 @@
+body {
+	background-color: darkgray;
+}
+
+a {
+	text-decoration: none;
+}
+.text:focus {
+	outline:2px groove darkviolet;
+}
+
+button	{
+	color:white;
+	background: darkviolet;
+	border:none;
+	border-radius: 2px;
+	border:2px solid transparent;
+	
+}
+button:active {
+	border:2px groove orange;
+}

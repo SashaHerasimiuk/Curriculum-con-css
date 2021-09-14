@@ -1,0 +1,53 @@
+
+
+body	{
+	background-color: darkgray;
+}
+header {
+	background-color: rgb(255,150,0);
+	text-align: center;
+}
+
+#cat {
+	width: 400px;
+	transition: 0.3s;
+	border:3px groove darkviolet;
+	box-sizing: border-box;
+}
+
+#cat:active {
+	width :500px;
+}
+
+#age {
+	color: rgb(150,0,200);
+}
+#direccion {
+	color: rgb(255,255,0);
+}
+aside {
+	border: 3px solid red;
+	padding: 10px;
+	margin: 10px
+}
+aside p {
+	border-bottom: 2px solid black;
+}
+
+ul	{
+	list-style-type: circle;
+}
+ul li {
+	margin:10px;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+ol li {
+	margin: 10px;
+}
+
+a{
+	text-decoration: none;
+}

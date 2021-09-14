@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="formCss.css">
 	<title>Formulario de contacto</title>
 </head>
 <body>
@@ -9,22 +10,23 @@
 	<form action="cv.html" method="POST">
 		<p>
 			<label for="nombre">Nombre</label>
-			<input type="text" name="nombre">
+			<input type="text" name="nombre" class="text">
 		</p>
 		<p>
 			<label for="apellido">Apellido</label>
-			<input type="text" name="apellido">
+			<input type="text" name="apellido" class="text">
 		</p>
 		<p>
 			<label for="email">e-mail</label>
-			<input type="email" name="email" required="">
+			<input type="email" name="email" required="" class="text">
 		</p>
 		<p>
-			<label for="motivo">Motivo del contacto</label>
-			<textarea placeholder="Motivo del contacto"></textarea>
+			
+			<textarea placeholder="Motivo del contacto" class="text"></textarea>
 		</p>
 		<button type="submit">Enviar</button>
 	</form>
+	<br>
 	<a href="cv.html">Volver</a>
 </body>
 </html>
